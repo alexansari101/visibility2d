@@ -1,12 +1,12 @@
 # visibility2d
 
-Library to compute a visiblity polygon based on an observer's location and polygonal obstacles
+Library to compute a visiblity polygon based on an observer's location and and the locations of polygonal obstacles.
 
 ## Build and Run
 
 This package has been tested on **Ubuntu 20.04**.
 
-To remove system build toolchain dependencies, bazel commands use `--config=llvm_ext` to build with an external llvm toolchain (specified in `.bazelrc`).
+To remove build toolchain dependencies, bazel commands use `--config=llvm_ext` to build with an external llvm toolchain (specified in `.bazelrc` and `WORKSPACE`).
 
 _Notes:_
 
