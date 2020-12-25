@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+# Compile commands
+compile_commands.json
+
+# Bazel artifacts
+bazel-*

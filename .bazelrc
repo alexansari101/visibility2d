@@ -1,0 +1,12 @@
+build --experimental_sandbox_base=/run/shm
+
+######
+## Use custom-configured c++ toolchain.
+
+build:llvm_ext --crosstool_top=@llvm_toolchain//:toolchain
+# build:llvm_ext --extra_toolchains=@llvm_toolchain//:cc-toolchain-linux
+
+## Use the default Bazel C++ toolchain to build the tools used during the
+## build.
+
+# build:llvm_ext --host_crosstool_top=@bazel_tools//tools/cpp:toolchain
