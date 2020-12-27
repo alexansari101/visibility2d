@@ -6,6 +6,7 @@ cc_test(
         "visibility_polygon_test.cc",
     ],
     deps = [
+        "//lib:utility",
         "//lib:visibility_polygon",
         "@gtest",
         "@gtest//:gtest_main",  # Only if the test *.cc has no main()

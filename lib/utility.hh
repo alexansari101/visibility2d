@@ -1,9 +1,6 @@
 #pragma once
 
 #include <fstream>
-#include <iterator>
-#include <type_traits>
-#include <vector>
 
 namespace util {
 
